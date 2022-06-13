@@ -242,15 +242,15 @@ void walk_task(void * pvParameters){
     if (fOK)
     {
       // 以下にモーション作成
-      tilt(20);
+      tilt(0);
       delay(1000);
       tilt(0);
       delay(1000);
-      tilt(-20);
+      tilt(0);
       delay(1000);
       tilt(0);
       delay(1000);
-      twist(-20);
+      twist(0);
       delay(1000);
       twist(0);
       delay(1000);
